@@ -1,0 +1,30 @@
+.Todo li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    list-style: none;
+    margin-bottom: 1rem;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+  }
+  
+  .Todo input[type="text"] {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    width: 60%;
+  }
+  
+  .Todo button {
+    padding: 0.5rem 1rem;
+    background-color: lightgray;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 1rem;
+  }
+  
